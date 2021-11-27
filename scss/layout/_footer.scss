@@ -1,0 +1,55 @@
+.footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: var(--background-color);
+}
+
+.general-container {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+.style-footer:not(:last-child) {
+	margin-bottom: 9px;
+}
+
+.contact-footer {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: rgba(255, 255, 255, 0.6);
+	transition: color var(--time) var(--color-text-hover);
+
+	&:hover,
+	&:active,
+	&:focus {
+	color: var(--accent-text-color);
+	}
+}
+
+.adress {
+	color: var(--background-second-text-color);
+}
+
+.social-text {
+	margin-bottom: 20px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--background-second-text-color);
+}
+
+.icon-footer {
+	fill: #ffffff;
+	transition: background-color var(--time) var(--animation-time);
+}
+
+.bg-footer {
+	background: var(--bg-color-footer);
+}

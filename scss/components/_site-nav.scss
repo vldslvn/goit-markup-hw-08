@@ -1,0 +1,26 @@
+.site-nav {
+	display: flex;
+	color: var(--header-color);
+	transition: color var(--time) var(--animation-time);
+
+	&:hover,
+	&:focus {
+	color: var(--accent-text-color);
+	}
+}
+
+.site-nav .link.current {
+	color: var(--accent-text-color);
+
+	&::after {
+		content: '';
+		width: 100%;
+		position: absolute;
+		height: 4px;
+		border-radius: 2px;
+		bottom: -34px;
+		display: block;
+		background: var(--accent-text-color);
+	}
+}
+

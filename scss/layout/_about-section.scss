@@ -1,0 +1,27 @@
+.about-section {
+	display: flex;
+}
+
+.about-list:not(:last-child) {
+	margin-right: 30px;
+}
+
+.about-list-title {
+	width: 270px;
+	min-height: 16px;
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--header-color);
+}
+
+.about-list-text {
+	width: 270px;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--paragraph-text-color);
+}
