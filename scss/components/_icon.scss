@@ -1,15 +1,16 @@
 .icon-all {
-	fill: var(--second-icon-color);
-	transition: fill var(--time) var(--animation-time);
+  fill: var(--second-icon-color);
+  transition: fill var(--time) var(--animation-time);
 }
 
 .icon-bg {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 30px;
-	width: 270px;
-	height: 120px;
-	background: var(--icon-bg-background-color);
-	border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: var(--icon-bg-background-color);
+  border-radius: 4px;
 }

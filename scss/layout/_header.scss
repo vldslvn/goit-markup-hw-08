@@ -11,12 +11,12 @@
   border-bottom: 1px solid #ececec;
 
   @media screen and (min-width: 768px) {
-    padding-top: 26px;
-    padding-bottom: 26px;
+    padding-top: 21px;
+    padding-bottom: 21px;
   }
   @media screen and (min-width: 1200px) {
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -133,12 +133,19 @@
 .header__tel {
   display: flex;
   align-items: center;
+  padding-bottom: 32px;
+  padding-top: 32px;
   color: var(--icon-color);
   transition: color var(--time) var(--animation-time);
 
   &:hover,
   &:focus {
     color: var(--accent-text-color);
+  }
+
+  @media screen and (max-width: 1199px) {
+    padding-bottom: 0;
+    padding-top: 0;
   }
 }
 
