@@ -1489,6 +1489,8 @@ img {
 }
 
 .hover-text-portfolio {
+  width: 328px;
+  height: 168px;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
