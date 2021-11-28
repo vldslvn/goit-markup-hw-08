@@ -1,20 +1,25 @@
 .section-potfolio {
+  //   margin-top: 80px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .btn-list-portfolio {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   margin-bottom: 40px;
+  margin-top: 60px;
 
   @media screen and (min-width: 768px) {
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin-bottom: 30px;
+    margin-top: 60px;
   }
   @media screen and (min-width: 1200px) {
     margin-bottom: 50px;
+    margin-top: 80px;
   }
 }
 
