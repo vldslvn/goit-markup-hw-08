@@ -313,10 +313,6 @@ img {
   color: var(--accent-text-color);
 }
 
-.modal-icon {
-  fill: currentColor;
-}
-
 .modal-form {
   display: flex;
   flex-direction: column;
