@@ -305,12 +305,16 @@ img {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  fill: #000000;
+  color: var(--header-color);
   transition: color var(--time) var(--animation-time);
 }
 
 .btn-modal:hover, .btn-modal:focus {
   color: var(--accent-text-color);
+}
+
+.modal-icon {
+  fill: currentColor;
 }
 
 .modal-form {

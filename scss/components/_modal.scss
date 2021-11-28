@@ -35,7 +35,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  fill: #000000;
+  color: var(--header-color);
   transition: color var(--time) var(--animation-time);
 
   &:hover,
@@ -44,6 +44,6 @@
   }
 }
 
-// .modal-icon {
-//   fill: currentColor;
-// }
+.modal-icon {
+  fill: currentColor;
+}
